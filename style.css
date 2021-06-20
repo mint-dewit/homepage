@@ -1,0 +1,41 @@
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+    grid-template-columns: 13vw auto;
+    grid-template-rows: 13vw auto;
+}
+
+.content {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+h1 {
+    font-size: 8rem;
+    margin: 0;
+}
+
+a {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
